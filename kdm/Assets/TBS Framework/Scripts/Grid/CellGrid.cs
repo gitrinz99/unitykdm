@@ -132,7 +132,7 @@ namespace TbsFramework.Grid
                 }
                 else
                 {
-                    Debug.LogError("Invalid object in cells paretn game object");
+                    Debug.LogError("Invalid object in cells parent game object");
                 }
             }
 

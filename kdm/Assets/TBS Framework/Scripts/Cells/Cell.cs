@@ -15,7 +15,7 @@ namespace TbsFramework.Cells
     [Serializable]
     public abstract class Cell : MonoBehaviour, IGraphNode, IEquatable<Cell>
     {
-        [HideInInspector]
+        // [HideInInspector]
         [SerializeField]
         private Vector2 _offsetCoord;
         /// <summary>
